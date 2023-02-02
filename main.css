@@ -32,4 +32,5 @@ h1{
 button{
     background-color: rgb(127, 255, 212);
     border-color: rgb(127, 255, 212);
+    cursor: pointer;
 }
