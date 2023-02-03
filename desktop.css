@@ -1,3 +1,4 @@
+/* media desktop ------------------------------------------------------------ */
 /* reset ------------------------------------------------------------------------ */
 @media screen and (min-width: 1024px){
     
@@ -61,7 +62,7 @@
         margin-left: 8px;
     }
 
-    /* produtos */
+    /* produtos -------------------------------------------------- */
     .produto, .btn-produto, .p-produto, .nome-produto{
         width: 200px;
     }
@@ -109,7 +110,8 @@
 
 }
 
-/* media celular */
+/* media celular ------------------------------------------------------*/
+/* reset ----------------------------------------------------- */
 @media screen and (max-width: 640px){
 
     *{
@@ -169,7 +171,7 @@
         margin-bottom: 30px;
     }
     
-    /* produtos ------------------------------*/
+    /* produtos ------------------------------------------------------*/
     .produto, .btn-produto, .p-produto, .nome-produto{
         width: 320px;
     }
@@ -220,6 +222,5 @@
         text-align: center;
         color: rgb(127, 255, 212);
         padding: 8px 0px;
-        /* margin-bottom: 0px; */
     }
 }
