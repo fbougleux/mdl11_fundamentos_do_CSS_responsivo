@@ -1,3 +1,5 @@
+/* reset ------------------------------------------------------------------------ */
+
 @media screen and (min-width: 1024px){
     
 *{
@@ -7,14 +9,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: rgba(0, 0, 0, 0.753);
-}
-
 .container{
     max-width: 1024px;
     margin: 0 auto;
     width: 100%;
+}
+
+/* header ----------------------------------------------------------------------------------- */
+
+header{
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 .cabecalho{
@@ -38,6 +42,8 @@ button{
     cursor: pointer;
 }
 
+/* sobre ------------------------------------------------------------- */
+
 .conteudo{
     display: grid;
     grid-template-columns: 100%;
@@ -56,8 +62,10 @@ button{
 .p-sobre{
     font-size: 1.5em;
     margin-left: 8px;
+    border-bottom: 1px solid #ccc;
 }
 
+/* rodape ----------------------------------------------------------- */
 
 footer{
     background-color: rgba(0, 0, 0, 0.753);
@@ -69,5 +77,6 @@ footer{
     color: rgb(127, 255, 212);
     padding: 8px 0px;
 }
+
 
 }
