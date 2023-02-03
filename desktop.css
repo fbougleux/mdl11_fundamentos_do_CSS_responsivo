@@ -14,6 +14,7 @@ header{
 .container{
     max-width: 1024px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .cabecalho{
@@ -36,6 +37,27 @@ button{
     border-color: rgb(127, 255, 212);
     cursor: pointer;
 }
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.title-sobre{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article-sobre{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.p-sobre{
+    font-size: 1.5em;
+    margin-left: 8px;
+}
+
 
 footer{
     background-color: rgba(0, 0, 0, 0.753);
